@@ -1,0 +1,23 @@
+body{
+ background: url(../public/image/pexels-pixabay-255403.jpg);
+ background-size: cover;
+ background-repeat: no-repeat;
+}
+
+button :active{
+    background: blanchedalmond;
+
+}
+
+.animation-data{
+    animation: pop linear .3s;
+}
+
+@keyframes pop{
+    from{
+        transform: scale(0.1);
+    }
+    to{
+        transform: scale(1);
+    }
+}
